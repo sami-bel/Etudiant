@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Etudiant Dz!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <link rel="stylesheet"  href="{{ asset('bundles/base/css/style.css') }}" type="text/css" media="screen"/>
+        <link rel="stylesheet"  href="{{ asset('bundles/base/css/bootstrap.min.css') }}" type="text/css" media="screen"/>
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+
+        <script src="{{ asset("bundles/base/js/jquery.js") }}"></script>
+        <script src="{{ asset("bundles/base/js/base.js") }}"></script>
+
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

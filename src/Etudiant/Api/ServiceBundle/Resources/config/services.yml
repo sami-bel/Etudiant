@@ -1,0 +1,7 @@
+services:
+    user_service:
+        class: Etudiant\Api\ServiceBundle\User\UserService
+        arguments: ["@service_container", "@doctrine.orm.entity_manager"]
+
+
+

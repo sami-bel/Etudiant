@@ -1,0 +1,4 @@
+services:
+#    base.example:
+#        class: Etudiant\Base\BaseBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

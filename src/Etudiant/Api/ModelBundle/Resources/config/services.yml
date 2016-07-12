@@ -1,0 +1,10 @@
+services:
+    user_model:
+        class: Etudiant\Api\ModelBundle\Model\UserModel
+        arguments: ["@service_container", "@doctrine.orm.entity_manager"]
+
+
+#    api.example:
+#        class: Etudiant\Api\ModelBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
+
