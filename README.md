@@ -1,17 +1,14 @@
-…or create a new repository on the command line
+Etudiant
+==========
 
-echo "# test" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin git@github.com:sami-bel/test.git
-git push -u origin master
+## Technical prerequisites
 
-…or push an existing repository from the command line
+- PHP 5.5+
+- MySQL 5+
+- Composer (https://getcomposer.org/download/)
 
-git remote add origin git@github.com:sami-bel/test.git
-git push -u origin master
+## Install the project
 
-…or import code from another repository
-
-You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+1. With git : ``git clone git@github.com:sami-bel/Etudiant.git`` or ``git clone https://github.com/sami-bel/Etudiant.git``
+2. ``cd To yout Project``
+3. ``php composer.phat install``
